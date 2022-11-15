@@ -12,7 +12,7 @@ st.set_page_config(layout="wide")
 loaded_model = pickle.load(open('./notebooks/final_model.sav', 'rb'))
 
 
-df = pd.read_csv("./datasets/Clustered_Customer_Data.csv")
+df = pd.read_csv("./notebooks/Clustered_Customer_Data.csv")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
