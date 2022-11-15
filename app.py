@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout="wide")
  
 #load the model from disk
-loaded_model = pickle.load(open(r'E://MarketSegmentation-main//final_model.sav', 'rb'))
+loaded_model = pickle.load(open('./notebooks/final_model.sav', 'rb'))
 
 
-df = pd.read_csv(r"E://MarketSegmentation-main//Clustered_Customer_Data.csv")
+df = pd.read_csv("./datasets/Clustered_Customer_Data.csv")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
